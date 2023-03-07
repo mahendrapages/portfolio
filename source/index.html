@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Mahendra portfolio</title>
+ <link rel="icon" type="image/x-icon" href="source/fav.ico">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+
+body {
+  background-image : url("source/bac.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+  background-size: 100% 100%;
+  
+
+}
+
+
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  opacity:0.5;
+  
+}
+
+li {
+  float: left;
+}
+
+li a {
+
+  display: block;
+  padding: 40px;
+  background-color: none;
+  color:white;
+}
+li a:hover {
+  background-color: green;
+}
+
+.header {
+  padding: 0.1px;
+  color:rgb(255, 30, 0);
+  
+  text-align: center;
+  background: lightorange;
+  background-color:rgb(255, 127, 0,0.2);
+  
+  
+}
+
+.header h1 {
+  font-size: 70px;
+  text-shadow: 2px 2px 4px #000000;
+  opacity:1
+}
+
+.img{
+border-radius: 25px;
+  border: 2px solid #73AD21;
+  padding: 20px; 
+  width: 200px;
+  height: 350px;  
+align:left;
+}
+
+
+
+.dropdown {
+  
+  position:absolute ;
+  display: inline-block;
+  color:White;
+  background-color:rgb(255, 99, 71,0.2);
+  font-size:30px
+}
+
+.dropdown-content {
+  display: none;
+  position: relative;
+  background-color: rgb(255, 99, 71,0.2);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 10px 20px;
+  z-index: 1;
+ 
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.self{
+position: absolute;
+  top: 350px;
+  left: 300px;
+  width: 1000px;
+  height: 100px;
+color:white;
+}
+
+
+</style>
+</head>
+<body>
+
+
+
+
+<ul>
+  <li><a href="source/home.html" target ="iframe_a">Home</a></li>
+  <li><a href="source/about.html"target ="iframe_a">about</a></li>
+  <li><a href="source/contact.html"target ="iframe_a">Contact</a></li>
+</ul>
+
+
+
+
+
+<div class="header">
+  <h1>Mahendra Simha Raavi</h1>
+		
+ 
+			<div class="dropdown">
+  
+					<span> Greetings !</span>
+				<div class="dropdown-content">
+				<p> Thank u for taking interest on me....</p>
+			</div>
+		
+</div>
+</div>
+<div class="self">
+			<iframe src="source/home.html" name="iframe_a" height="300px" width="100%" title="Iframe Example"></iframe>
+
+		</div>	
+
+<div class="img">
+		<img src ="source/mine.jpg" style="width:200px;height:350px";>
+		
+		
+
+		</div>
+
+
+
+
+</body>
+</html>
